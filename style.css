@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=WDXL+Lubrifont+TC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+:root{
+    ---marrom-acinzentado-1: #332318;
+    ---marron-acinzentado-2: #5c4631;
+    ---amarelo-acinzentado-pastel: #c0bfaf;
+    ---transition: 0.3 ease all;
+    ---font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    font-family: var(---font-family);
+    background-color: white;
+}
+
+.header-navigation h1{
+    margin-left: 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: var(---marron-acinzentado-2);
+}
+
+.navigation-links{
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.navigation-links > li{
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.navigation-links > li > a{
+    text-decoration:none;
+    color: var(---marron-acinzentado-2);
+}
+
+.navigation-links > li:hover{
+
+    border-radius: 40%;
+    border-color: var(---amarelo-acinzentado-pastel);
+
+}
